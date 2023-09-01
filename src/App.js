@@ -4,8 +4,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import HomePage from './Main'; // Main.js 파일로 변경
-
+import HomePage from './Main';
 import Introduce from './Introduce';
 import Stack from './Stack';
 import Works from './Works';
