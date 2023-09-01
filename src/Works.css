@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.workpage {
+    display: flex;
+    height: 100vh;
+  }
+  
+.sidebar {
+    background-color: #3498db; 
+    width: 300px; 
+    text-align: center;
+  }
+  
+.container {
+    background-color: #eff2f8;
+    flex: 1;
+  }
+  
+.separator {
+    width: 2px;
+    background-color: white; 
+  }
+  
+
+.profileimg {
+    margin-top: 50px;
+}
+  
+.profileimg > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.profile {
+    line-height: 10px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    color : #242424
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+}
+
+.profile h2 {
+    padding-bottom : 10px;
+    padding-top: 15px;
+}
+
+.container {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.container > .subtitle > h2 {
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    font-size : 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #3498db;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-weight: bold;
+}
+
+.subtitle .divide {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.subtitle .content {
+    line-height: 5px;
+    color : #242424;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-bottom: 50px;
+}
+
+.subtitle .content > h2 {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.subtitle .content > h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mainbutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainbutton > a {
+    text-decoration: none;
+}
+
+.back {
+    font-size: 100px;
+    color: #3498db;
+}
+
