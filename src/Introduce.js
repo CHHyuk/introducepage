@@ -38,6 +38,9 @@ function Introduce() {
             <p>끊임없이 공부하고 발전하는 중입니다!</p>
           </div>
         </div>
+        <br/>
+        <br/>
+        <br/>
         <div className='subtitle'>
           <h2>Education / Military</h2>
           <div className='divide'>

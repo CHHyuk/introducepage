@@ -3,7 +3,7 @@
 
 .workpage {
     display: flex;
-    height: 100vh;
+    height: 100%;
   }
   
 .sidebar {
@@ -67,10 +67,34 @@
     font-weight: bold;
 }
 
+
+
 .subtitle .divide {
     display: flex;
-    justify-content: space-around;
-    
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+.content-img > img {
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.divide .content-img {
+    flex-grow : 6;
+}
+
+.divide .content { 
+    width: 650px;
+    border-radius: 20px;
+}
+
+.content a {
+    text-decoration: none;
+    color: rgb(18, 130, 150);
 }
 
 .subtitle .content {
@@ -97,6 +121,12 @@
 
 .mainbutton > a {
     text-decoration: none;
+    transition: transform 0.2s; 
+}
+
+.mainbutton > a:hover {
+    transform: scale(0.9); 
+    transition: transform 0.5s ease;
 }
 
 .back {

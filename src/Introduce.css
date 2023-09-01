@@ -97,6 +97,12 @@
 
 .mainbutton > a {
     text-decoration: none;
+    transition: transform 0.2s; 
+}
+
+.mainbutton > a:hover {
+    transform: scale(0.9); 
+    transition: transform 0.5s ease;
 }
 
 .back {
